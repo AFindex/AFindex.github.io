@@ -13,7 +13,7 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  target_branch: master # generate static files to master
+  target_branch: master # generate static files 
   on:
     branch: hexo-source # source code 
   local-dir: public
